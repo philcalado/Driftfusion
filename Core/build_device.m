@@ -65,7 +65,7 @@ dev.dint = build_property(0, xmesh, par, 'dint', 1);
 
 % Switches
 dev.int_switch = build_property(0, xmesh, par, 'int_switch', 1);
-dev.bulk_switch = abs(dev.int_switch-1);
+dev.bulk_switch = abs(dev.int_switch - 1);
 if par.vsr_mode
     dev.vsr_zone = build_property(0, xmesh, par, 'vsr_zone', 1);
     dev.srh_zone = dev.bulk_switch;
